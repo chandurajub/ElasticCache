@@ -9,3 +9,4 @@ module "vpc" {
   HOSTED_ZONE_ID  = data.terraform_remote_state.route53.outputs.HOSTED_ZONE_ID
   HOSTED_ZONE_NAME= data.terraform_remote_state.route53.outputs.HOSTED_ZONE_NAME
 }
+
